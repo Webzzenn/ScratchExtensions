@@ -991,8 +991,14 @@ but has since deviated to be its own thing. (made with box2D js es6)
 					}
 				],
 				menus: {
-					sceneType: ['semi-closed stage', 'boxed stage', 'opened stage', 'nothing'],
-					BodyTypePK: ['dynamic', 'static', 'kinematic', 'fixed with rotation'],
+					sceneType:{
+						acceptReporters: true,
+					    items:['semi-closed stage', 'boxed stage', 'opened stage', 'nothing']
+					}
+					BodyTypePK:{
+				        acceptReporters: true,
+				         items:['dynamic', 'static', 'kinematic', 'fixed with rotation']
+			        }
 					BodyTypePK2: ['dynamic', 'static', 'any'],
 					bodyAttr: ['damping', 'rotational damping'],
 					bodyAttrRead: ['x', 'y', 'Xvel', 'Yvel', 'Dvel', 'direction', 'awake', 'type', 'friction', 'pressure'],
