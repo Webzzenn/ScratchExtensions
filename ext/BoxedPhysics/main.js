@@ -1034,16 +1034,14 @@ but has since deviated to be its own thing. (made with box2D js es6)
 						  },
 					rotModes:{ items:[
 						{ text: "dynamic", value: "false" },
-						{ text: "fixed", value: "true" }
+						{ text: "fixed", value: "true" },],
 						acceptReporters: true,
 						},
-					],
 					costumeType: {items:[
 						{ text: "Convex Hull", value: "hull" },
-						{ text: "Edge points", value: "img" }
+						{ text: "Edge points", value: "img" }],
 						acceptReporters: true,
 						},
-					],
 				},
 			};
 		}
